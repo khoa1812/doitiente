@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>[Bài tập] Ứng dụng chuyển đổi tiền tệ</title>
+</head>
+<body>
+<script src="codeJS.js"></script>
+<h1>[Bài tập] Ứng dụng chuyển đổi tiền tệ</h1>
+<table>
+    <tr>
+        <th>Amount</th>
+        <th>From Currency</th>
+        <th>To Currency</th>
+        <th></th>
+    </tr>
+    <tr>
+        <td><input type="text" id="Amount"></td>
+        <td>
+            <select id="From">
+                <option value="VND">VND</option>
+                <option value="USD">USD</option>
+                <option value="Yen">Yen</option>
+            </select>
+        </td>
+        <td>
+            <select id="To">
+                <option value="VND">VND</option>
+                <option value="USD">USD</option>
+                <option value="Yen">Yen</option>
+            </select>
+        </td>
+        <td>
+            <button onclick="chuyendoi()" style="color: white; background: blue">Convert</button>
+        </td>
+    </tr>
+</table>
+
+<p id="Result" style="color: blue"></p>
+</body>
+</html>
